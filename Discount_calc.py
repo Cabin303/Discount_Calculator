@@ -4,8 +4,14 @@ from dotenv import load_dotenv
 from telebot import types
 
 # загружаем переменные из .env
+# загружаем переменные из .env
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+# Мягкая остановка бота через переменную окружения STOP_BOT=true
+if os.getenv("STOP_BOT") == "true":
+    print("⏸ Bot is stopped by STOP_BOT flag.")
+    raise SystemExit(0)
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode='Markdown')
 # снимаем вебхук, чтобы не было конфликта с polling

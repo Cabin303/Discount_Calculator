@@ -1,0 +1,9 @@
+# секреты
+.env
+
+# служебное
+__pycache__/
+*.pyc
+
+# IDE (PyCharm)
+.idea/

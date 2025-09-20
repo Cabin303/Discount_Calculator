@@ -1,9 +1,13 @@
 # 🧾 Discount Calculator Bot
 
-A **totally useless** Telegram bot that calculates discounts.  
-Enter the price and the discount percent — get a nice receipt with the final price.  
+A **totally useless** Telegram bot that calculates discounts.
+Enter the price and the discount percent — get a nice receipt with the final price.
 Built as a **training project** on Python using [PyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://core.telegram.org/bots)
+[![Deploy](https://img.shields.io/badge/Deploy-Railway-purple?logo=railway)](https://railway.app/)
 
+A totally useless Telegram bot that calculates discounts.
 ---
 
 ## ✨ Features
@@ -47,5 +51,5 @@ python Discount_calc.py
 ---
 
 ## 📌 Notes
-This bot is not meant to be useful.  
+This bot is not meant to be useful.
 It’s just a playground for learning Python & Telegram bots 🤷‍♂️.
